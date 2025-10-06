@@ -1,0 +1,39 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav, main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    gap: 30px;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+main{
+    gap: 20px;
+    background-color: lightgray;
+    background-image: url(../assets/achtergrond.webp);
+}
+
+a{
+    color: gray;
+    display: block;
+    margin-left: 10px;
+}
+.item{
+    max-width: 49%;
+    padding: 20px;
+}
+.item:nth-of-type(3), .item:nth-of-type(6){
+   background-color: rgba(139, 211, 146, 0.5);
+   max-width: 100%;
+}
+
+.item:nth-of-type(3)::first-letter, .item:nth-of-type(6)::first-letter{
+    font-size: 200%;
+}

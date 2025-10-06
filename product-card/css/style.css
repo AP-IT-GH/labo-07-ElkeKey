@@ -1,0 +1,43 @@
+body{
+    font-family: Poppins, sans-serif;
+
+}
+
+.container{
+    background-image: url(../assets/bridge.jpg);
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button{
+    background-color: #dda15e;
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+}
+
+.footer{
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.footer h3{
+    font-weight: bold;
+}
+
+.footer h4{
+    color: #929292;
+}
